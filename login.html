@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Saya</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0d47a1, #c62828);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            border-left: 6px solid #0d47a1;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #c62828;
+            margin-bottom: 15px;
+        }
+
+        .biodata p {
+            margin: 8px 0;
+            font-size: 16px;
+        }
+
+        .education ul {
+            padding-left: 20px;
+        }
+
+        .education li {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        /* Skill */
+        .skill {
+            margin-bottom: 15px;
+        }
+
+        .skill span {
+            font-weight: bold;
+        }
+
+        .skill-bar {
+            background-color: #ddd;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+
+        .skill-level {
+            height: 18px;
+            background: linear-gradient(90deg, #0d47a1, #c62828);
+        }
+
+        /* Photo Section */
+        .photo-section {
+            text-align: center;
+        }
+
+        .photo-section img {
+            width: 250px;
+            border-radius: 15px;
+            border: 4px solid #c62828;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portfolio Saya</h1>
+    <p>Web Developer | Designer</p>
+</header>
+
+<div class="container">
+
+    <div class="section biodata">
+        <h2>Biodata</h2>
+        <p><strong>Nama:</strong> Nama Anda</p>
+        <p><strong>Tempat, Tanggal Lahir:</strong> Jakarta, 1 Januari 2000</p>
+        <p><strong>Email:</strong> email@example.com</p>
+    </div>
+
+    <div class="section education">
+        <h2>Riwayat Pendidikan</h2>
+        <ul>
+            <li>SD Negeri Contoh</li>
+            <li>SMP Negeri Contoh</li>
+            <li>SMA/SMK Contoh</li>
+            <li>Universitas Contoh</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Skill</h2>
+
+        <div class="skill">
+            <span>HTML</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width:90%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>CSS</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width:85%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width:70%"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Photo -->
+    <div class="section photo-section">
+        <h2>Foto Profil</h2>
+        <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12"
+             alt="Black man portrait">
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Portfolio Saya
+</footer>
+
+</body>
+</html>
